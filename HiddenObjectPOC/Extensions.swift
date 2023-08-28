@@ -43,9 +43,9 @@ extension ViewController2 {
         
         NSLayoutConstraint.activate([
             objectToFind.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            objectToFind.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 340),
+            objectToFind.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 350),
             label.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            label.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 265)
+            label.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 275)
         ])
     }
 

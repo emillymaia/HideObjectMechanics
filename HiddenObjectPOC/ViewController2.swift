@@ -13,7 +13,7 @@ class ViewController2: UIViewController {
 
     let label: UILabel = {
         let label = UILabel()
-        label.text = "FIND THIS ONE"
+        label.text = "Encontre:"
         label.translatesAutoresizingMaskIntoConstraints = false
         label.frame.size = CGSize(width: 100, height: 50)
         return label
